@@ -9,7 +9,7 @@ public class CDMain {
 		String filename = args[0];
 		System.out.println(filename);
 		int numVertices = Integer.parseInt (args[1]);				 
-		final int NUMITERATIONS = 1000;
+		final int NUMITERATIONS = 100;
 		long start = System.currentTimeMillis();
 		ConstructGraph object = new ConstructGraph (filename, numVertices);
 		Graph g = object.constructGraph();				
